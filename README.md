@@ -1,5 +1,5 @@
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Jaya%20Prakash%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AWS%20Certified%20Cloud%20%26%20DevOps%20Engineer%20%7C%20Automating%20Infrastructure%2C%20One%20Pipeline%20at%20a%20Time&descAlignY=62&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:70A5FD,100:BF91F3&height=220&section=header&text=Jaya%20Prakash%20S&fontSize=45&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
