@@ -1,4 +1,3 @@
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:70A5FD,100:BF91F3&height=200&section=header&text=Jaya%20Prakash%20S&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=DevOps%20Engineer%20%7C%20AWS%20%7C%20Kubernetes%20%7C%20Terraform%20%7C%20CI%2FCD%20Automation&descSize=18&descAlignY=75" width="100%"/>
 
 <div align="center">
@@ -14,27 +13,33 @@
 
 ## About
 
-DevOps Engineer with hands-on experience building end-to-end infrastructure automation pipelines and containerized application platforms on AWS. Proven track record delivering production-grade systems using Terraform, Ansible, Kubernetes, Docker, and GitHub Actions. AWS Certified Cloud Practitioner with a focus on IaC, CI/CD automation, monitoring, and zero-touch deployment workflows.
+AWS Certified Cloud Practitioner with hands-on experience building cloud infrastructure, Kubernetes platforms, GitOps workflows, CI/CD automation, monitoring, and observability solutions. Experienced with Terraform, Ansible, Docker, K3s Kubernetes, ArgoCD, GitHub Actions, Prometheus, Grafana, and AWS Cloud services. Currently focused on DevOps, Cloud, Platform Engineering, and Site Reliability Engineering (SRE) practices.
 
 ---
 
 ## 🚀 Featured Projects
 
 ### Kubernetes-Based DevOps Task Management Platform
-> `Kubernetes` · `Prometheus` · `Grafana` · `GitHub Actions` · `Docker` · `Flask` · `MySQL` · `Nginx`
+> `K3s Kubernetes` · `ArgoCD` · `GitOps` · `GitHub Actions` · `Docker` · `Prometheus` · `Grafana` · `Alertmanager` · `Node Exporter` · `MySQL Exporter` · `Flask` · `MySQL` · `ConfigMaps` · `Secrets` · `PVC` · `ServiceMonitors`
 
-**[🔗 View Repository](https://github.com/jaya-prakash-s-devops/devops-task-platform)**
+**[🔗 View Repository](https://github.com/jaya-prakash-s-devops/kubernetes-devops-task-platform)**
 
-Built and deployed a production-grade containerized multi-tier platform on Kubernetes with full observability stack.
+Built and deployed a production-style containerized multi-tier task management platform using Flask, MySQL, Docker, and K3s Kubernetes.
+
+Implemented GitOps deployment using ArgoCD with automatic synchronization and self-healing capabilities.
+
+Configured GitHub Actions CI workflow to build frontend and backend Docker images, publish images to Docker Hub, automatically update Kubernetes manifests, and support GitOps deployment workflows.
 
 | Area | Implementation |
 |------|---------------|
-| **Orchestration** | Kubernetes Deployments, Services, Secrets, Ingress, PVCs, ServiceMonitors |
-| **CI Pipeline** | GitHub Actions — automated Docker image build, versioning, and push to Docker Hub |
-| **Monitoring** | Prometheus + Grafana + MySQL Exporter — pod metrics and Flask application metrics |
-| **Stack** | Flask backend · MySQL database · Nginx reverse proxy · Docker containers |
+| **Orchestration** | Kubernetes Deployments, Services, ConfigMaps, Secrets, PVCs, ServiceMonitors |
+| **GitOps** | ArgoCD — automatic synchronization and self-healing deployments |
+| **CI Pipeline** | GitHub Actions — automated Docker image build, versioning, push to Docker Hub, and manifest updates |
+| **Deployment** | Rolling updates with readiness and liveness probes for production-style releases |
+| **Monitoring** | Prometheus, Grafana, Alertmanager, Node Exporter, MySQL Exporter — application, infrastructure, cluster, and database monitoring |
+| **Stack** | Flask backend · MySQL database · Docker containers · K3s Kubernetes |
 
-**Key outcomes:** Fully automated image delivery pipeline; centralized metrics dashboards via Grafana; persistent data across pod restarts via PVCs.
+**Key outcomes:** GitOps deployment with ArgoCD; automated image build, publishing, and manifest updates; self-healing deployments with rolling updates; ConfigMaps and Secrets management; persistent storage via PVCs; full application, infrastructure, cluster, and database observability via Prometheus and Grafana.
 
 ---
 
@@ -89,11 +94,17 @@ Git Push → GitHub Actions → Terraform (init/validate/plan/apply)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![GitOps](https://img.shields.io/badge/GitOps-326CE5?style=flat-square&logo=git&logoColor=white)
 
 **📡 Monitoring & Observability**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Node Exporter](https://img.shields.io/badge/Node_Exporter-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![MySQL Exporter](https://img.shields.io/badge/MySQL_Exporter-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
 
 **🖥️ OS, Scripting & Networking**
@@ -121,19 +132,6 @@ Git Push → GitHub Actions → Terraform (init/validate/plan/apply)
 | 🚀 **AWS re/Start Graduate** | AWS & TNSkills | Sep 2025 |
 | 🏗️ **Terraform: Managing Infrastructure as Code** | Packt | May 2026 |
 | 📦 **100 Days of DevOps Bootcamp** | Udemy | Mar 2026 |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jaya-prakash-s-devops&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaya-prakash-s-devops&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=jaya-prakash-s-devops&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10"/>
-</div>
 
 ---
 
